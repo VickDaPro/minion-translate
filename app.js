@@ -4,8 +4,7 @@ console.log(txtInput);
 
 function clickHandler() {
     console.log('clicked!');
-    var txtInputValue = txtInput.value;
-    console.log("input", txtInputValue);
+    console.log("input", txtInput.value);
 };
 
 btnTranslate.addEventListener('click', clickHandler);
